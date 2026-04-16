@@ -1,0 +1,26 @@
+.header {
+    width: 100vw;
+    height: 10vh;
+    background-color:salmon;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-header {
+    width: 100vw;
+    height: 10vh;
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Profile {
+    width: 100vw;
+    height: 10vh;
+    background-color:goldenrod;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
