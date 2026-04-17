@@ -11,6 +11,8 @@ import UIUX from './Router.jsx/UIUX';
 import Clothes from './Router.jsx/Clothes';
 import Footwear from './Router.jsx/Footwear';
 import Accessories from './Router.jsx/Accessories';
+import ParamHook from './Router.jsx/Compound.jsx/ParamHook';
+import Details from './Router.jsx/Compound.jsx/Details';
 
 export default function App() {
 
@@ -45,7 +47,7 @@ export default function App() {
          <Route path="Footwear" element={<Footwear/>}/>
          <Route path="Accessories" element={<Accessories/>}/>
         </Route>
-     
+         <Route path="/Details/:id" element={<Details/>}/>
        </Routes>
 
       </BrowserRouter>
