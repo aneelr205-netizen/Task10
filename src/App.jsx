@@ -14,6 +14,7 @@ import Accessories from './Router.jsx/Accessories';
 import ParamHook from './Router.jsx/Compound.jsx/ParamHook';
 import Details from './Router.jsx/Compound.jsx/Details';
 
+
 export default function App() {
 
 
@@ -49,9 +50,9 @@ export default function App() {
         </Route>
          <Route path="/Details/:id" element={<Details/>}/>
        </Routes>
-
+         
       </BrowserRouter>
-      
+     
     
   )
 }
